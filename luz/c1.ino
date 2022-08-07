@@ -1,0 +1,101 @@
+int azul=10; int vermelho=11; int verde=9; int amarelo=6; int tempo=500; int tt=tempo/2;
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(azul,OUTPUT);
+  pinMode(vermelho,OUTPUT);
+  pinMode(verde,OUTPUT);
+  pinMode(amarelo,OUTPUT);
+  
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(azul,HIGH);
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,LOW);
+  digitalWrite(amarelo,LOW);
+  delay(tempo);
+  //=======================
+  digitalWrite(azul,LOW);
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,LOW);
+  digitalWrite(amarelo,HIGH);
+  delay(tempo);
+  //======================
+  digitalWrite(azul,LOW);
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,HIGH);
+  digitalWrite(amarelo,LOW);
+  delay(tempo);
+  //======================
+  digitalWrite(azul,LOW);
+  digitalWrite(vermelho,HIGH);
+  digitalWrite(verde,LOW);
+  digitalWrite(amarelo,LOW);
+  delay(tempo);
+  //=================================================================================
+  digitalWrite(azul,HIGH);//YTFYTDCVCTDYSVCTDYSVCYTTTTTTTTTTTTTTTTTTTTTCVTDYTYAAVCAYV
+  digitalWrite(vermelho,HIGH);
+  digitalWrite(verde,HIGH);
+  digitalWrite(amarelo,HIGH);
+  delay(tt);
+  digitalWrite(azul,LOW);//YTFYTDCVCTDYSVCTDYSVCYTTTTTTTTTTTTTTTTTTTTTCVTDYTYAAVCAYV
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,LOW);
+  digitalWrite(amarelo,LOW);
+  delay(tt);
+  digitalWrite(azul,HIGH);//YTFYTDCVCTDYSVCTDYSVCYTTTTTTTTTTTTTTTTTTTTTCVTDYTYAAVCAYV
+  digitalWrite(vermelho,HIGH);
+  digitalWrite(verde,HIGH);
+  digitalWrite(amarelo,HIGH);
+  delay(tt);
+  digitalWrite(azul,LOW);//YTFYTDCVCTDYSVCTDYSVCYTTTTTTTTTTTTTTTTTTTTTCVTDYTYAAVCAYV
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,LOW);
+  digitalWrite(amarelo,LOW);
+  delay(tt);
+  digitalWrite(azul,HIGH);//YTFYTDCVCTDYSVCTDYSVCYTTTTTTTTTTTTTTTTTTTTTCVTDYTYAAVCAYV
+  digitalWrite(vermelho,HIGH);
+  digitalWrite(verde,HIGH);
+  digitalWrite(amarelo,HIGH);
+  delay(tt);
+  digitalWrite(azul,LOW);//YTFYTDCVCTDYSVCTDYSVCYTTTTTTTTTTTTTTTTTTTTTCVTDYTYAAVCAYV
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,LOW);
+  digitalWrite(amarelo,LOW);
+  delay(tt);
+  digitalWrite(azul,HIGH);//YTFYTDCVCTDYSVCTDYSVCYTTTTTTTTTTTTTTTTTTTTTCVTDYTYAAVCAYV
+  digitalWrite(vermelho,HIGH);
+  digitalWrite(verde,HIGH);
+  digitalWrite(amarelo,HIGH);
+  delay(tt);
+  digitalWrite(azul,LOW);//YTFYTDCVCTDYSVCTDYSVCYTTTTTTTTTTTTTTTTTTTTTCVTDYTYAAVCAYV
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,LOW);
+  digitalWrite(amarelo,LOW);
+  delay(tt);
+  
+  //--------------
+  digitalWrite(azul,LOW);
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,HIGH);
+  digitalWrite(amarelo,LOW);
+  delay(tempo);
+  //=====================
+  digitalWrite(azul,LOW);
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,LOW);
+  digitalWrite(amarelo,HIGH);
+  delay(tempo);
+ //=====================
+ digitalWrite(azul,HIGH);
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,LOW);
+  digitalWrite(amarelo,LOW);
+  //delay(tempo);
+  /*digitalWrite(azul,LOW);
+  digitalWrite(vermelho,LOW);
+  digitalWrite(verde,LOW);
+  digitalWrite(amarelo,LOW);*/
+  
+}
